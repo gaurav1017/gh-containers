@@ -20,7 +20,7 @@ jobs:
       PORT: 8080
     services: 
       mongodb:
-        imgge: mongo
+        image: mongo
         env: 
           MONGO_INITDB_ROOT_USERNAME: root
           MONGO_INITDB_ROOT_PASSWORD: example 
